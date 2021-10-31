@@ -16,7 +16,7 @@ function App() {
     <main>
       <h1>Create React App + Go API</h1>
       <h2>
-        Deployed with{' '}
+        Deployedddd with{' '}
         <a
           href="https://vercel.com/docs"
           target="_blank"
