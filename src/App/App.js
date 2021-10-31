@@ -1,6 +1,9 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { Router,Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
+import About from "./About";
+import Home from "./Home";
+import NotFound from "./NotFound";
 import './App.css';
 
 function App() {
