@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { Router } from 'react-router-dom';
+import { Router,Switch, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
