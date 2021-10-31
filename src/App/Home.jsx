@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useState } from 'react';
 import './App.css';
-import { UserList } from './user/UserList'
+import  UserList  from './user/UserList'
 import { UserCards } from './user/UserCards';
 import Header from "./partials/Header"
 import Footer from "./partials/Footer"

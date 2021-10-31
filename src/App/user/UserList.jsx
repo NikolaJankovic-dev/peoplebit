@@ -3,7 +3,7 @@ import { UserItem } from './UserItem';
 import PropTypes from 'prop-types'
 
 
-export const UserList = props => {
+const UserList = props => {
     if(props && props.data && props.data.length>0) {
         const userList = props.data.map((user, index) => <UserItem userData = {user} key = {index} />)
         return (
@@ -22,4 +22,6 @@ UserList.propType = {
 UserList.defaultProps = {
     data: []
 }
+
+export default UserList
 
