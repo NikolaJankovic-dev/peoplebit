@@ -3,7 +3,6 @@ import React from 'react';
 export const UserItem = props => {
     const { name, dob, picture, email } = props.userData;
     // const date = new Date (dob);
-    console.log(props)
     // const dateFormated = date.getFullYear()
     return (
         <div className="col s12">
